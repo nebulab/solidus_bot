@@ -1,0 +1,55 @@
+GIT
+  remote: git://github.com/burningpony/spree-api-client.git
+  revision: 13f1a90f57a37042be66a85c92e5e2994d488746
+  specs:
+    spree-api-client (0.0.4)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.9)
+      hashie (~> 2.0)
+      httparty
+      multi_json (~> 1.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.11)
+    faraday (0.12.2)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.12.2)
+      faraday (>= 0.7.4, < 1.0)
+    hashie (2.1.2)
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    ice_nine (0.11.2)
+    multi_json (1.12.1)
+    multi_xml (0.6.0)
+    multipart-post (2.0.0)
+    telegram-bot-ruby (0.8.3)
+      faraday
+      virtus
+    thread_safe (0.3.6)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+    wit (5.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  spree-api-client!
+  telegram-bot-ruby
+  wit
+
+BUNDLED WITH
+   1.14.6
